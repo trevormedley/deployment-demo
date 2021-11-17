@@ -1,18 +1,32 @@
 * {
-  font-family: monospace;
-  color: midnightblue;
+  font-family: sans-serif;
+  color: #226FA7;
+  margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
   text-align: center;
   transition: 250ms;
-}
-
-h1:hover {
-  color: teal;
+  font-size: 40px;
 }
 
 header {
   height: 120vh;
+  width: 100vw;
   background: url(assets/headerBlur.png);
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+#yourStyle {
+    color: #1C4F75;
+    font-size: 80px;
 }
