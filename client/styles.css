@@ -1,14 +1,18 @@
 * {
-    font-family: monospace;
-    color: midnightblue;
-    background-color: powderblue;
+  font-family: monospace;
+  color: midnightblue;
 }
 
 h1 {
-    text-align: center;
-    transition: 250ms;
+  text-align: center;
+  transition: 250ms;
 }
 
 h1:hover {
-    color: teal;
+  color: teal;
+}
+
+header {
+  height: 120vh;
+  background: url(assets/headerBlur.png);
 }
