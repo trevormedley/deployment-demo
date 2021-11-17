@@ -1,0 +1,14 @@
+* {
+    font-family: monospace;
+    color: midnightblue;
+    background-color: powderblue;
+}
+
+h1 {
+    text-align: center;
+    transition: 250ms;
+}
+
+h1:hover {
+    color: teal;
+}
